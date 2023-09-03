@@ -18,5 +18,10 @@ make lily58/rev1:via:flash -e USER_NAME=idank -e POINTING_DEVICE=trackball -e TR
 make crkbd/rev1:via -j8 -e USER_NAME=idank -e POINTING_DEVICE=trackpoint
 
 # build perso julmx for corn with trackpoint and custom bepo layout :
-qmk compile -kb crkbd/rev1 -km julmx -j8 -e USER_NAME=julmx -e POINTING_DEVICE=trackpoint
+qmk compile -kb crkbd/rev1 -j0 -e POINTING_DEVICE=trackpoint -e TRACKBALL_POSITION=right
 ```
+
+# convert keymap.c to json :
+qmk c2json -kb crkbd/rev1 -km julmx --no-cpp -o layout.json keymap.c
+```
+Can be imported in https://keymap-drawer.streamlit.app
