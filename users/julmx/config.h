@@ -44,3 +44,9 @@
 } while (0)
 #define PS2_INT_VECT   INT3_vect
 #endif
+/* Applies a transformation to the movement before sending to the host  */
+// #define PS2_MOUSE_USE_2_1_SCALING
+
+#define PS2_MOUSE_X_MULTIPLIER 3
+#define PS2_MOUSE_Y_MULTIPLIER 3
+#define PS2_MOUSE_V_MULTIPLIER 1

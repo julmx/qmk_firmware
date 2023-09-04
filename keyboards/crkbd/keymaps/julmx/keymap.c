@@ -62,9 +62,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
        BP_DLR, BP_DQUO, BP_LABK, BP_RABK, BP_LPRN, BP_RPRN,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      BP_PERC,  BP_GRV, BP_LCBR, BP_RCBR, BP_LBRC, BP_RBRC,                      XXXXXXX, KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, XXXXXXX,
+      BP_PERC,  BP_GRV, BP_LCBR, BP_RCBR, BP_LBRC, BP_RBRC,                   LCTL(BP_Z), KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-       BP_EQL,   BP_AT, BP_PLUS, BP_MINS, BP_ASTR, BP_SLSH,                      XXXXXXX, KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, XXXXXXX,
+       BP_EQL,   BP_AT, BP_PLUS, BP_MINS, BP_ASTR, BP_SLSH,                   LCTL(BP_Y), KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                          _______,  BP_UNDS,  _______,    _______, _______, _______
                                       //`--------------------------'  `--------------------------'
